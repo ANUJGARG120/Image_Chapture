@@ -1,0 +1,57 @@
+@media only screen and (min-width: 180px) {
+    body{
+        background-color: rgb(250, 211, 161);
+      background-image: url("https://www.freeiconspng.com/uploads/photoshop-background-png-19.png");
+      width: auto;
+      height: auto;
+    }
+    
+}
+
+h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(20, 19, 18);
+    font-family:'Times New Roman', Times, serif;
+    font-size: 70px;
+}
+
+button{
+
+  font-size: 18px;
+  border: none;
+  background-color: rgb(136, 10, 10);
+  color: rgb(235, 226, 226);
+  cursor: pointer;
+  width: 100px;
+  height: 30px;
+  border-radius: 5px;
+}
+#camera{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    box-shadow: 10px 10px 5px rgb(202, 139, 139);
+    border-radius: 10px;
+    width: 600px;
+    height: 100px;
+}
+#video{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    box-shadow: 10px 10px 5px rgb(216, 131, 131);
+    border-radius: 10px;
+    width: 200px;
+    height: 100px;
+}
+
+#results{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    border-radius: 10px;
+    width: 200px;
+    height: 200px;
+}

@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="./style.css">
+    
+    <title>Document</title>
+    <script defer src="index.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@tensorflow-models/blazeface"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/webcamjs/1.0.26/webcam.min.js"></script>
+
+</head>
+
+<body>
+    <h1>Image Capture</h1>
+    <video id="video" autoplay></video>
+    <h4>Mirror Image</h4>
+    <div id="camera" width="600" height="400"></div>
+    <button onclick="take_photo()">Click</button>
+    <div id="results">Result</div>
+  
+
+</body>
+
+</html>
